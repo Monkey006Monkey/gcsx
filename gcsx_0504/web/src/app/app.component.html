@@ -1,0 +1,26 @@
+<head>
+  <link href="/assets/css/fontawesome.css" rel="stylesheet">
+  <link href="/assets/css/fa-brands.css" rel="stylesheet">
+  <link href="/assets/css/fa-regular.css" rel="stylesheet">
+  <link href="/assets/css/fa-solid.css" rel="stylesheet">
+</head>
+
+<body>
+  <h1>学生签到系统</h1>
+  <h3>
+    <a routerLink="" class="top">
+      <i class="fas fa-user"></i> 账户
+    </a>
+  </h3>
+  <hr>
+  <div style="width: 250px; position: absolute;">
+    <a routerLink="/sgin-in" class="left">学生签到
+    </a>
+    <br>
+    <a routerLink="/user-detail" class="left">个人信息修改
+    </a>
+  </div>
+  <div style="width: 80%; position: absolute; left: 250px;">
+    <router-outlet></router-outlet>
+  </div>
+</body>

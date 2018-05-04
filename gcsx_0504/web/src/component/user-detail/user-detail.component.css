@@ -1,0 +1,43 @@
+h2 {
+  position:absolute;
+  left: 10%;
+}
+
+label {
+  font-size: 18px;
+
+  display: inline-block;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+input {
+  width: 300px;
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+select {
+  height: 27px;
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+button {
+  font-size: 18px;
+}
+
+button.choose {
+  width: 120px;
+  height: 35px;
+
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 5px;
+  border-style: outset;
+
+  background-color: white;
+}
